@@ -44,12 +44,15 @@ O curso é ministrado pelo renomado instrutor Matheus Battisti e está disponív
 12. **Renderização de Lista**
     - Manipulação e renderização de listas em Angular.
 
-13. **Pipe Operators do Angular**
+13. **Interfaces no Angular**
+    - Exploração as Interfaces no Angular, que são baseadas no TypeScript.
+   
+14. **Pipe Operators do Angular**
     - Exploração dos operadores de pipe para transformação de dados.
 
-14. **Two Way Data Binding do Angular**
+15. **Two Way Data Binding do Angular**
     - Compreensão do conceito de two-way data binding.
 
-15. **... e muito mais!**
+ **... e muito mais! Vou adicionando a medida que ir aprendendo...**
 
 
