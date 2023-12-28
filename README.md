@@ -6,7 +6,7 @@ Esse é um repositório do curso de Angular ministrado por Matheus Battisti. Est
 
 O curso é ministrado pelo renomado instrutor Matheus Battisti e está disponível gratuitamente no YouTube. Você pode acessar as aulas através do seguinte link: [Curso de Angular por Matheus Battisti](https://www.youtube.com/watch?v=vJt_K1bFUeA&list=PLnDvRpP8Bnex2GQEN0768_AxZg_RaIGmw&index=1)
 
-## Tópicos Abordados
+## Tópicos Abordados - Aulas Teóricas
 
 1. **Introdução**
    - Visão geral do Angular e seus principais conceitos.
@@ -46,13 +46,35 @@ O curso é ministrado pelo renomado instrutor Matheus Battisti e está disponív
 
 13. **Interfaces no Angular**
     - Exploração as Interfaces no Angular, que são baseadas no TypeScript.
-   
+
 14. **Pipe Operators do Angular**
     - Exploração dos operadores de pipe para transformação de dados.
 
 15. **Two Way Data Binding do Angular**
     - Compreensão do conceito de two-way data binding.
 
- **... e muito mais! Vou adicionando a medida que ir aprendendo...**
+16. **Services do Angular**
+    - Implementação e utilização de serviços no Angular.
+
+17. **Angular Router**
+    - Navegação entre componentes usando o Angular Router.
+
+18. **Requisições HTTP**
+    - Realização de requisições HTTP para interação com APIs.
+
+19. **Dynamic Routes**
+    - Criação de rotas dinâmicas no Angular.
+
+20. **Excluindo Dados pelo Service**
+    - Como excluir dados através do serviço no Angular.
+
+## Tópicos Abordados - Projeto Prático
+
+1. **Apresentação do Projeto**
+   - Introdução ao projeto.
+
+2. **Setup da API**
+   - Configurações iniciais.
 
 
+etc...
