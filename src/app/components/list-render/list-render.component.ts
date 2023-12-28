@@ -4,6 +4,7 @@ import { Animal } from '../../Animal';
 
 
 import { ListService } from '../../services/list.service';
+import { get } from 'http';
 @Component({
   selector: 'app-list-render',
   standalone: true,
@@ -12,16 +13,11 @@ import { ListService } from '../../services/list.service';
   styleUrl: './list-render.component.css'
 })
 export class ListRenderComponent {
-    animals: Animal[]= [
-      {name : 'Perro', type: 'Dog', age: 10},
-      {name : 'Gato', type: 'Cat', age: 10},
-      {name : 'Pez', type: 'Fish', age: 10},
-      {name : 'Pajaro', type: 'Bird', age: 10},
-    ];
+    animals: Animal[]= [    ];
 
     animalDetails = ''
 
-    constructor(private listService: ListService){}
+    constructor(private listService: ListService){this.getAnimals()}
 
 
     showAge(animal:Animal){
@@ -31,5 +27,9 @@ export class ListRenderComponent {
     removeAnimal(animal: Animal){
       console.log('Removendo animal');
       this.animals = this.listService.remove(this.animals, animal);
+    }
+
+    getAnimals():void{
+      this.listService.getAll().subscribe((animals) => (this.animals = animals));
     }
 }
